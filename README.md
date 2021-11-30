@@ -61,17 +61,20 @@ SVM  		     | 0.81 	 | 0.82	  | 0.82     | 0.81
 Logistic Regression  | 0.74	 | 0.77   | 0.77     | 0.74
 Random Forest	     | 0.81	 | 0.81   | 0.81     | 0.81 
 
+![image](https://user-images.githubusercontent.com/76393919/144002676-dae6fbde-c4d4-4709-98c8-2f648674da4c.png)
+
+
 ## ALGORITHMS
 This is the algorithm for development of a classification model that I have used here
-	Start
-	Import necessary libraries.
-	Vectorize character values.
-	Normalize all the values.
-	Split training and testing data.
-	Did hyper parameter tuning with the corresponding classification method.
-	Trained the model.
-	Tested the model using test data.
-	End
+* Start
+* Import necessary libraries.
+* Vectorize character values.
+* Normalize all the values.
+* Split training and testing data.
+* Did hyper parameter tuning with the corresponding classification method.
+* Trained the model.
+* Tested the model using test data.
+* End
 
 ## CHALLENGES & OPPORTUNITIES
 With this internship one of the main challenges that I had faced was on visualizing each attribute relations and developing the model. I had a rough idea on these classification techniques from my academic background. But these daily activities let me get a thorough idea on these techniques. So I had the opportunities to build a concrete base in myself about these models. And I also learnt from this internship to do hyperparameter tuning which I wasn’t aware of earlier.
@@ -91,47 +94,61 @@ During these 30 days of my project as mentioned in all the reports that I have s
 Also, I could enhance my programing skills through this project like visualization, sanitization of the dataset and on how to use the 3 classification models that I have used in this project.
 Linear Regression
 Linear regression is perhaps one of the most well-known and well understood algorithms in statistics and machine learning. It is a kind of regression in which we try to fit a line onto a set of data points. It is one of the most common algorithms that’s used for predictive analysis. The base of the model is the relation between a dependent and independent variable basically represented as 
- 
-	y is the predicted value of the dependent variable (y) for any given value of the independent variable (x).
-	B0 is the intercept, the predicted value of y when the x is 0.
-	B1 is the regression coefficient – how much we expect y to change as x increases.
-	x is the independent variable (the variable we expect is influencing y).
-	e is the error of the estimate, or how much variation there is in our estimate of the regression coefficient.
+ 					![image](https://user-images.githubusercontent.com/76393919/144002835-71bfad2f-9d71-42a0-9e70-33cd39327a38.png)
+
+* y is the predicted value of the dependent variable (y) for any given value of the independent variable (x).
+* B0 is the intercept, the predicted value of y when the x is 0.
+* B1 is the regression coefficient – how much we expect y to change as x increases.
+* x is the independent variable (the variable we expect is influencing y).
+* e is the error of the estimate, or how much variation there is in our estimate of the regression coefficient.
+
 Linear regression finds the line of best fit line through your data by searching for the regression coefficient (B1) that minimizes the total error (e) of the model.
 By differentiating the above formula, we can obtain an equation for beta1 and beta2 using which we can define the equation for error. Then we will try to define the model by minimizing the residual error.
- 
+ ![image](https://user-images.githubusercontent.com/76393919/144002972-0c417f60-824a-4161-9773-20135a2be9e1.png)
+![image](https://user-images.githubusercontent.com/76393919/144002985-8c9a86fa-7ba2-4814-9ea7-536ed26762b0.png)
+
 Gradient descent is an optimization algorithm that finds the values of parameters (coefficients) of a function (f) to minimize the cost function (cost). 
 
 ### Logistic Regression
  Logistic Regression is used when the dependent variable(target) is categorical.
 The type of function used here is a sigmoid function.
+![image](https://user-images.githubusercontent.com/76393919/144003021-a73d56ea-eee0-4922-be87-6d34a11b86e6.png)
+
 If ‘Z’ goes to infinity, Y(predicted) will become 1 and if ‘Z’ goes to negative infinity, Y(predicted) will become 0. So, the only outputs of a logistic regression model are ‘0’ and ‘1’.
 
 logistic(η) =  1/(1+exp(-η))
 The step from linear regression to logistic regression is kind of straightforward. In the linear regression model, we have modelled the relationship between outcome and features with a linear equation:
- 
+ ![image](https://user-images.githubusercontent.com/76393919/144003063-43ba4116-ec74-4721-a705-007efc94e92d.png)
+
 For classification, we prefer probabilities between 0 and 1, so we wrap the right side of the equation into the logistic function. This forces the output to assume only values between 0 and 1.
- 
+![image](https://user-images.githubusercontent.com/76393919/144003085-e4743e97-6765-49ad-8f0a-c2dcf8bf6fdb.png)
+
 
 From the above equation, in the end we can define the odds ratio as
- 
+ ![image](https://user-images.githubusercontent.com/76393919/144003102-5353d05d-9fa6-4d13-af6c-f8c1464c6837.png)
+
 ### SVM
 A support vector machine takes data points and outputs the hyperplane (which in two dimensions it’s simply a line) that best separates the tags. This line is the decision boundary: In the following example, anything that falls to one side of it we will classify as blue, and anything that falls to the other as red.
- 
+ ![image](https://user-images.githubusercontent.com/76393919/144003129-863faa4a-102c-44ad-b4f9-76eee4c9426a.png)
+
 For SVM, the best hyper plane is the one that maximizes the margins from both tags. The loss function that helps maximize the margin is hinge loss.
+![image](https://user-images.githubusercontent.com/76393919/144003149-18730e35-349a-4f95-bcd5-80d356ab2cb7.png)
+![image](https://user-images.githubusercontent.com/76393919/144003162-30428b7b-be6b-480b-bb11-c8ddf4e33884.png)
 
 Hinge loss function (function on left can be represented as a function on the right)
 
 Then, we have the loss function
- 
+ ![image](https://user-images.githubusercontent.com/76393919/144003172-1e63aed1-a0ff-4cd3-b503-110f16d40245.png)
+
 Now that we have the loss function, we take partial derivatives with respect to the weights to find the gradients. Using the gradients, we can update our weights.
 When there is no misclassification, i.e., our model correctly predicts the class of our data point, we only have to update the gradient from the regularization parameter. When there is a misclassification, i.e., our model makes a mistake on the prediction of the class of our data point, we include the loss along with the regularization parameter to perform gradient update.
-
-
+![image](https://user-images.githubusercontent.com/76393919/144003186-a10478dc-9f3a-4fa1-92b1-8ca87a0d047b.png)
+![image](https://user-images.githubusercontent.com/76393919/144003195-4b3418b0-e75b-4229-8c9d-9ee7dd033616.png)
 
 ### Random Forest
 Random forest is a supervised learning algorithm. The "forest" it builds, is an ensemble of decision trees, usually trained with the “bagging” method. The general idea of the bagging method is that a combination of learning models increases the overall result.
- 
+ ![image](https://user-images.githubusercontent.com/76393919/144003233-edc930c3-a7d2-46fe-b001-ce833e0fc0ee.png)
+
 Random forest has nearly the same hyperparameters as a decision tree or a bagging classifier. Fortunately, there's no need to combine a decision tree with a bagging classifier because you can easily use the classifier-class of random forest. With random forest, we can also deal with regression tasks by using the algorithm's regressor.
 Random forest adds additional randomness to the model, while growing the trees. Instead of searching for the most important feature while splitting a node, it searches for the best feature among a random subset of features. This results in a wide diversity that generally results in a better model.
 Therefore, in random forest, only a random subset of the features is taken into consideration by the algorithm for splitting a node. We can even make trees more random by additionally using random thresholds for each feature rather than searching for the best possible thresholds (like a normal decision tree does).
@@ -142,31 +159,32 @@ Project Inference
 Here, in this project I tried it with 3 different models which are logistic regression, SVM and random forest.
 
 So, after hyper parameter tuning the classification report that I got from logistic regression model is
- 
+ ![image](https://user-images.githubusercontent.com/76393919/144003248-83edbe9e-0ba8-4c27-bcaf-13b09302dc8e.png)
+
 
 And the classification report for the random forest model is as follows.
  
-
-
-
+![image](https://user-images.githubusercontent.com/76393919/144003256-e502ee61-c6cd-49d4-be0e-449a9e2231c0.png)
 
 And the classification report for tuned SVM model is as follows.
- 
+ ![image](https://user-images.githubusercontent.com/76393919/144003287-c3ecb59e-c031-4929-9348-10c2eb0b75eb.png)
 
 And then I have compared these 3 classifiers according to the parameters f1 score, accuracy, precision and recall.
- 
+![image](https://user-images.githubusercontent.com/76393919/144003309-48d5c8af-b74f-427b-adaa-39f6c8c96dbf.png)
 
 And its clear that the SVM model has more accuracy among the 3. Hence, I chose the SVM model among these. Then I used the SVM model for testing on a particular case.
- 
+ ![image](https://user-images.githubusercontent.com/76393919/144003324-0c8eeecd-556e-454b-af29-7770ebe254f8.png)
+
 The output I got for this particular case was this.
+![image](https://user-images.githubusercontent.com/76393919/144003337-a02b5b02-9adb-4d9f-8b2f-a7331017d912.png)
  
 To conclude, HR Salary Dashboard works like a very useful tool for predicting the salary of new employees. I think it can predict the salaries very well if we can include ‘years of experience’ attribute to the data. I think the model still lag behind in case of accuracy since the model could achieve an accuracy of only 82%. May be including more data might be a solution to the problem. Otherwise, I hope my project is up and ready for use if it’s converted to an application.
 
 ## ENHANCEMENT SCOPE
 The project has a very vast scope in future. The project can be implemented on intranet in future. Project can be updated in near future as and when requirement for the same arises, as it is very flexible in terms of expansion. Also, we have a very good client base as this can be useful in many of the organizations and companies. The project can also be converted to an application in the future.
 The following are the future scope for the project.
-	Addition of a ‘years of experience attribute’.
-	Addition of a resume validator to this model.
+* Addition of a ‘years of experience attribute’.
+* Addition of a resume validator to this model.
 
 ## LINK TO CODE AND EXECUTABLE FILE
 Link to the colab file: 

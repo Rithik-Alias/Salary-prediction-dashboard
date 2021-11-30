@@ -1,4 +1,4 @@
-	  qvc  	     | Precision | Recall | Accuracy | F1-Score
+ABC	  	     | Precision | Recall | Accuracy | F1-Score
 -------------------- | --------- | ------ | -------- | --------
 SVM  		     | 0.81 	 | 0.82	  | 0.82     | 0.81 
 Logistic Regression  | 0.74	 | 0.77   | 0.77     | 0.74

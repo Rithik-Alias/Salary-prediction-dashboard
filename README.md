@@ -1,13 +1,3 @@
-Models	  	     | Precision | Recall | Accuracy | F1-Score
--------------------- | --------- | ------ | -------- | --------
-SVM  		     | 0.81 	 | 0.82	  | 0.82     | 0.81 
-Logistic Regression  | 0.74	 | 0.77   | 0.77     | 0.74
-Random Forest	     | 0.81	 | 0.81   | 0.81     | 0.81
-
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
 ## OBJECTIVE
 The objective of this project is to make a salary prediction dashboard. The model should be able to predict the salary of a new employee who switch his job.
 
@@ -65,24 +55,11 @@ Pie chart plotting the work class distribution
 ![image](https://user-images.githubusercontent.com/76393919/144000936-d87c4c0e-98c9-4deb-a9f2-842e4b1afbf3.png) 
 
 The diagram showing comparison between 3 classification models that I have tried.
-		Precision	Recall	Accuracy	f1 score
-	SVM	0.81	0.82	0.82	0.81
-	Logistic Regression	0.74	0.77	0.77	0.74
-	Random Forest	0.81	0.81	0.81	0.81
-
-	      	     | Precision | Recall | Accuracy | F1-Score
+Models	  	     | Precision | Recall | Accuracy | F1-Score
 -------------------- | --------- | ------ | -------- | --------
 SVM  		     | 0.81 	 | 0.82	  | 0.82     | 0.81 
 Logistic Regression  | 0.74	 | 0.77   | 0.77     | 0.74
-Random Forest	     | 0.81	 | 0.81   | 0.81     | 0.81
-
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
-
-
- 
+Random Forest	     | 0.81	 | 0.81   | 0.81     | 0.81 
 
 ## ALGORITHMS
 This is the algorithm for development of a classification model that I have used here

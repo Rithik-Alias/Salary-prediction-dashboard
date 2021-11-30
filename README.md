@@ -1,9 +1,5 @@
 ## OBJECTIVE
 The objective of this project is to make a salary prediction dashboard. The model should be able to predict the salary of a new employee who switch his job.
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
 
 ## INTRODUCTION
 My dataset contains age, workclass, education, education-num, marital-status, occupation, relationship, race, sex, capital-gain, capital-loss, hours-per-week, native-country attributes and a target attribute. During the first interim, 5 days of my project I cleaned and sanitized my dataset. On the next 10 days I went through several articles and videos regarding classification models and techniques. Then I developed my model using logistic regression, SVM and Random Forest. And I have made a comparison between output of these 3 models. At the end I have predicted the result using a user defined data tuple. 
@@ -65,12 +61,15 @@ The diagram showing comparison between 3 classification models that I have tried
 	Random Forest	0.81	0.81	0.81	0.81
 
 	      	     | Precision | Recall | Accuracy | F1-Score
----------------------| ----------|--------|----------|---------
+-------------------- | --------- | ------ | -------- | --------
 SVM  		     | 0.81 	 | 0.82	  | 0.82     | 0.81 
 Logistic Regression  | 0.74	 | 0.77   | 0.77     | 0.74
 Random Forest	     | 0.81	 | 0.81   | 0.81     | 0.81
 
-
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
 
 
  

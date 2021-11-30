@@ -6,15 +6,15 @@ My dataset contains age, workclass, education, education-num, marital-status, oc
 The model that I have developed is a HR -Salary dashboard, so the main objective of this model is to predict the salary of an employee who is newly admitted to certain department or position.
 
 ## INTERNSHIP ACTIVITIES
-	Attended the RIO – pre assessment test.
-	Went through the helping materials available in our dashboard such as the Welcome Kit, Day wise plan, Project reference material etc.
-	Watched the webinars and recorded lectures.
-	Created a dataset that is suitable for this project.
-	Cleaned and sanitized the dataset.
-	Went through many articles and videos to learn about classification models and training techniques.
-	Trained the dataset to predict the salary of a particular HR when they switch jobs.
-	Made a comparison between 3 different classification techniques i.e. SVM, logistic regression, random forest.
-	Wrote activity reports and project interim reports.
+* Attended the RIO – pre assessment test.
+* Went through the helping materials available in our dashboard such as the Welcome Kit, Day wise plan, Project reference material etc.
+* Watched the webinars and recorded lectures.
+* Created a dataset that is suitable for this project.
+* Cleaned and sanitized the dataset.
+* Went through many articles and videos to learn about classification models and training techniques.
+* Trained the dataset to predict the salary of a particular HR when they switch jobs.
+* Made a comparison between 3 different classification techniques i.e. SVM, logistic regression, random forest.
+* Wrote activity reports and project interim reports.
 
 ## METHODOLOGY
 So, the target attribute in my dataset contains only 2 classes. Hence, we need to predict our salary to be in one of these 2 classes. So, our model converges to a binary classification model. There are several methods to make a binary classification which include SVM, logistic regression, random forest etc. I have trained and tested my data using SVM, logistic regression and random forest and made a comparison among them.

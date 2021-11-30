@@ -1,3 +1,13 @@
+	  qvc  	     | Precision | Recall | Accuracy | F1-Score
+-------------------- | --------- | ------ | -------- | --------
+SVM  		     | 0.81 	 | 0.82	  | 0.82     | 0.81 
+Logistic Regression  | 0.74	 | 0.77   | 0.77     | 0.74
+Random Forest	     | 0.81	 | 0.81   | 0.81     | 0.81
+
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
 ## OBJECTIVE
 The objective of this project is to make a salary prediction dashboard. The model should be able to predict the salary of a new employee who switch his job.
 

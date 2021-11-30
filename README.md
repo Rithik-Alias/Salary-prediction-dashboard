@@ -60,6 +60,11 @@ The diagram showing comparison between 3 classification models that I have tried
 	Logistic Regression	0.74	0.77	0.77	0.74
 	Random Forest	0.81	0.81	0.81	0.81
 
+	      | Precision | Recall | Accuracy | F1-Score
+------------- | -------------
+SVM  | 0.81 | 0.82 | 0.82 | 0.81 
+Logistic Regression  | 0.74 | 0.77 | 0.77 | 0.74
+Random Forest | 0.81 | 0.81 | 0.81 | 0.81
 
 
 

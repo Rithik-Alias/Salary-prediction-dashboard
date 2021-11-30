@@ -28,30 +28,37 @@ This project can not predict an exact salary of an employee who is switching job
 CHARTS, TABLE, DIAGRAMS
 The following are charts and diagrams that I have created as part of the visualization.
 Bar graph plotting the native countries of the employees
+![image](https://user-images.githubusercontent.com/76393919/144000780-8237d092-6748-4817-ba8d-60abbced80f9.png)
+
 Boxplot showing the no. of working hours (per week) of employees
+![image](https://user-images.githubusercontent.com/76393919/144000797-51364073-d9aa-44d4-aa46-59091c566450.png)
  
 Pie chart plotting gender distribution
+![image](https://user-images.githubusercontent.com/76393919/144000814-77609b4d-f328-469c-ad22-4d7e28d6f4b7.png)
  
 Pie chart plotting race distribution
+![image](https://user-images.githubusercontent.com/76393919/144000827-27aa4308-fe29-4064-aa33-5ea4dbdad200.png)
  
-
 Bar graph plotting the relationship status of the employees
- 
+![image](https://user-images.githubusercontent.com/76393919/144000861-cf6749f2-ae8b-47b7-96c1-bcb91a2b3556.png)
 
 Bar graph plotting the occupations of the employees
- 
+ ![image](https://user-images.githubusercontent.com/76393919/144000887-6e2a1bf4-c2d9-4b59-99be-6880b76412ae.png)
+
 Pie chart plotting the marital status of the employees
+![image](https://user-images.githubusercontent.com/76393919/144000904-207888b0-5586-4a6a-bf12-cd60b330a7ca.png)
  
 Bar graph plotting the education level of the employees
+![image](https://user-images.githubusercontent.com/76393919/144000916-18a6489b-d1ed-4c21-a21e-97378ec983c2.png)
  
 Pie chart plotting the work class distribution
- 
+![image](https://user-images.githubusercontent.com/76393919/144000936-d87c4c0e-98c9-4deb-a9f2-842e4b1afbf3.png) 
 
 The diagram showing comparison between 3 classification models that I have tried.
-	Precision	Recall	Accuracy	f1 score
-SVM	0.81	0.82	0.82	0.81
-Logistic Regression	0.74	0.77	0.77	0.74
-Random Forest	0.81	0.81	0.81	0.81
+		Precision	Recall	Accuracy	f1 score
+	SVM	0.81	0.82	0.82	0.81
+	Logistic Regression	0.74	0.77	0.77	0.74
+	Random Forest	0.81	0.81	0.81	0.81
 
 
 
